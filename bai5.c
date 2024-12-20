@@ -13,7 +13,7 @@ int main() {
         {2, "zio", 21, "0987654321"},
         {3, "ooo", 22, "0980808800"},
         {4, "fang", 23, "0965412548"},
-        {5, "thien", 24, "025327698"}
+        {5, "thien", 24, "0253276908"}
     };
     
     int currentSize = 5;
@@ -33,7 +33,7 @@ int main() {
             printf("So dien thoai: %s", sinhVien[i].phoneNumber);
 
             printf("\nNhap ten moi: ");
-            getchar();  // X? lý d?u '\n' còn l?i t? scanf tru?c dó
+            getchar();  
             fgets(sinhVien[i].name, sizeof(sinhVien[i].name), stdin);
 
             printf("Nhap tuoi moi: ");
